@@ -1,0 +1,31 @@
+.first{
+    background-color: rgb(195, 195, 231);
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count:infinite ;
+}
+
+.second{
+    background-color: rgb(57, 57, 188);
+    animation-name: example;
+    animation-duration: 9s;
+    animation-delay: 2s;
+    animation-iteration-count:infinite ;
+}
+
+.third{
+    background-color: rgb(205, 82, 166);
+    animation-name: example;
+    animation-duration: 7s;
+    animation-delay: 3s;
+    animation-iteration-count:infinite ;
+}
+
+
+@keyframes example {
+    from {
+    background-color:rgb(195, 195, 231);
+    }
+    to {background-color: rgb(75, 59, 220);}
+  }
